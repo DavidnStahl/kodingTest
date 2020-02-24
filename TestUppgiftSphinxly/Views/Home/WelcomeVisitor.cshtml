@@ -1,0 +1,7 @@
+﻿@model TestUppgiftSphinxly.ViewModels.ResponseViewModel
+
+
+    <div>@Html.DisplayTextFor(model => model.Response)</div>
+    
+<br />
+@Html.ActionLink("Radera Min Infomation", "DeleteVisitorInformation", "Home",new { @class = "btn btn-primary" })
